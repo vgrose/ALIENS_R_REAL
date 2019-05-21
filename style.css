@@ -1,0 +1,73 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+.bgimg1{
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg1{
+    background-image: url("images/ufo_background.JPG");
+    height: auto;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    opacity: 0.65;
+}
+  
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    margin: 50px;
+    font-size: 50px;
+    letter-spacing: 10px;
+} 
+*{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+}
+
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 130px;
+    overflow: auto;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100px;
+}
+  
+
+.footer > .bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+  
+.navbar {
+    padding: 5px;
+    margin: 0;
+}
