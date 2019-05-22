@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>UFO Finder</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto:900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,15 +13,19 @@
     <div class= "bgimg1">
         <div class="wrapper">
             <div class="container">
+                <div class = "row">
+                    <h1>UFO Finder</h1>
+                </div>
+                <div class = "row">
                 <form class="form-inline">
                         <div class="form-group">
                             <label for="datetime">Enter a Date</label>
                             <input type="text" class="form-control" id="datetime" placeholder="1/1/2010">
                             </div>
                             <button id="submit" type="submit" class="btn btn-default">Filter Table</button>
-                        </form>
+                </form>
                 <table id="ufo-table" class="table table-striped">
-                    <thead>
+                    <thead class="dark">
                         <tr>
                             <th class="table-head">Date</th>
                             <th class="table-head">City</th>
@@ -34,6 +38,7 @@
                     </thead>
                     <tbody></tbody>
                 </table>
+                </div>
             </div>
         </div>
         <footer class="footer">
